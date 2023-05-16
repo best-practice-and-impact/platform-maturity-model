@@ -24,9 +24,9 @@ Access to standard integrated developments environments (IDE), such as Visual St
 
 Access to the public internet (given the standard department proxy restrictions) for coding resources. It must be possible to directly use code snippets from the web or local code examples in code development on the platform.
 
-For development environments it should be possible to copy and paste text into and out of the environment
+For development environments (without access to sensitive data) it should be possible to copy and paste text into and out of the environment
 
-For exploratory environments it should be possible to copy and paste into the environment
+For exploratory environments (with access to sensitive data) it should be possible to copy and paste into the environment
 
 Access to standard package repositories for Python and R, for example, via Artifactory mirrors. A reasonable baseline is PyPI, CRAN, Debian and conda.
 
