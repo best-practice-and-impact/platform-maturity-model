@@ -4,6 +4,12 @@ A maturity model for platforms that support development of Reproducible Analytic
 
 This is a **draft** model that draws on [the RAP miminum viable product definition](https://github.com/best-practice-and-impact/rap_mvp_maturity_guidance/blob/master/Reproducible-Analytical-Pipelines-MVP.md), [the Duck Book guidance for good practices in analysis and research](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html) and [the current industry standard - indernal development platforms](https://internaldeveloperplatform.org/).
 
+The model discusses different types of analysis environment. We define these as:
+-	Development: For developing production analysis pipelines (RAP). No access to sensitive data, but open access to public internet via department's proxy.
+- Production and user acceptance testing (UAT): Environments for running production analysis pipelines with sensitive data.
+-	Exploratory: For carrying out exploratory analysis with sensitive data.
+
+
 ## Minimum requirements
 
 Access to all supported versions of [Python](https://endoflife.date/python) and [R](https://developer.r-project.org/)
@@ -24,9 +30,9 @@ Access to standard integrated developments environments (IDE), such as Visual St
 
 Access to the public internet (given the standard department proxy restrictions) for coding resources. It must be possible to directly use code snippets from the web or local code examples in code development on the platform.
 
-For development environments (without access to sensitive data) it should be possible to copy and paste text into and out of the environment
+For development environments it should be possible to copy and paste text into and out of the environment
 
-For exploratory environments (with access to sensitive data) it should be possible to copy and paste into the environment
+For exploratory environments it should be possible to copy and paste text into the environment and there should be a route for exporting code to be used in the development of production analysis systems
 
 Access to standard package repositories for Python and R, for example, via Artifactory mirrors. A reasonable baseline is PyPI, CRAN, Debian and conda.
 
